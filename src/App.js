@@ -1,11 +1,14 @@
-import React from "react";
-import "./style.css";
+import React from 'react';
+import './style.css';
 
 export default function App() {
   return (
     <div>
-      <h1>Hello StackBlitz!</h1>
-      <p>Start editing to see some magic happen :)</p>
+      <header>
+        <h1>hello header</h1>
+        <h3>Testando react em um editor online</h3>
+        <p>espero porfavorzinho que o prof aceite</p>
+      </header>
     </div>
   );
 }
